@@ -77,6 +77,9 @@ function showHoroskop() {
             para.innerHTML = `Communication is very important today—written, spoken, and even nonverbal body language will all…`
             show.style.background = "rgb(57, 139, 221)"
             break;
+        default:
+            head.innerHTML = `Please give a Month !`
+            show.style.background = "rgb(57, 139, 221)"
     }
 
 }
