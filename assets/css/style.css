@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+body{
+    margin: 0;
+    height:100vh;
+    background: url(../img/h3.jpg) center/cover no-repeat;
+}
+#form{
+    display:grid;
+    place-content: center;
+}
+#text{
+    margin-top:50%;
+    background-color: rgb(228, 199, 147) ;
+    border: rgb(228, 199, 147) solid 1px ;
+    border-radius:10px;
+    padding:5px 35px;
+}
+#show{
+    background-color: rgb(228, 199, 147) ;
+    border: rgb(228, 199, 147) solid 1px ;
+    border-radius:10px;
+    padding:5px 5px;
+    width:50%;
+    justify-self: center;
+}
+#show:hover{
+    background: rgb(57, 139, 221);
+    border:rgb(57, 139, 221) solid 1px;
+}
+#showMonth{
+    text-align:center;
+    margin: 5% auto;
+    color: aliceblue;
+    height: 40vh;
+    width: 25%;
+}
+#horImg{
+    margin-top: 5%;
+}
+#horHead{
+    margin-top: 15%;
+    font-family: 'Bebas Neue', cursive;
+}
+#heroPara{
+    font-family: 'Amatic SC', cursive;
+}
